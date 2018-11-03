@@ -1,0 +1,21 @@
+.tunes-grid {
+    background-color: #eeeeee;
+    -webkit-transition: -webkit-filter 250ms;
+    transition: -webkit-filter 250ms;
+    -o-transition: filter 250ms;
+    -moz-transition: filter 250ms;
+    transition: filter 250ms;
+    transition: filter 250ms, -webkit-filter 250ms;
+
+    .grid-image {
+        width: 100%;
+        height: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.blur .tunes-grid {
+    -webkit-filter: blur(5px) grayscale(80%);
+            filter: blur(5px) grayscale(80%);
+}
