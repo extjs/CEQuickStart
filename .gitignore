@@ -2,3 +2,6 @@
 /generatedFiles
 /cordova
 /node_modules
+.sencha
+package-lock.json
+.vscode
